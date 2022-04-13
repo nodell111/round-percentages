@@ -5,7 +5,7 @@ from setuptools import find_packages
 setup(
   name='round-percentages',
   packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests", "*tests.*"]),
-  version='0.2',
+  version='0.5',
   license='MIT',
   description='Round percentages that add up to 100, such that the rounded percentages also add up to 100 using the '
               'largest remainder method.',
