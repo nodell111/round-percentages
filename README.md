@@ -5,11 +5,12 @@ Round percentages that add up to 100, such that the rounded percentages also add
 ## Installation
 To install run
 ```sh
-pip install rounded-percentages
+pip install round-percentages
 ```
 
 ## Example usage
 ```
-rounded_percentages([13.626332, 47.989636, 9.596008, 28.788024])
+import round_percentages
+round_percentages([13.626332, 47.989636, 9.596008, 28.788024])
 output: [14, 48, 9, 29]
 ```
