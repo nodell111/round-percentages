@@ -1,8 +1,11 @@
 from distutils.core import setup
+
+from setuptools import find_packages
+
 setup(
   name='round-percentages',
-  packages=['round-percentages'],
-  version='1.0',
+  packages=find_packages(exclude=("tests",)),
+  version='0.1',
   license='MIT',
   description='Round percentages that add up to 100, such that the rounded percentages also add up to 100 using the '
               'largest remainder method.',
